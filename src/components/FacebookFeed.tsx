@@ -22,6 +22,7 @@ export function FacebookFeed() {
       
       <div className="rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 p-4 md:p-8 bg-white">
         {/* Widget Behold tự động lấy ảnh từ Facebook */}
+        {/* @ts-ignore */}
         <behold-widget feed-id="sCtYaTmvSA2D4qtMAEky"></behold-widget>
       </div>
       
