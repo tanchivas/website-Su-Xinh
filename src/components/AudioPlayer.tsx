@@ -36,7 +36,7 @@ export function AudioPlayer() {
       <audio 
         ref={audioRef} 
         loop 
-        src="https://cdn.pixabay.com/download/audio/2022/11/22/audio_feb6305a41.mp3?filename=aesthetic-lofi-126207.mp3" 
+        src="/bg-music.mp3" 
       />
       <button 
         onClick={(e) => {
